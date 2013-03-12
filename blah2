@@ -1,0 +1,73 @@
+Final Project Proposal
+CSCE 462
+
+Summary
+
+          The members of our team are: Joshua Howell, Tom White, Margaret Ligon, and Travis James. Together, we propose to create an automatic coffee machine, which can take requests from a server to make cups of coffee for students. Our still basic plan works as follows: From any computer with an internet connection one can connect to an online server, this server is connected to a coffee machine which will then make the cup of coffee.
+         For this project, we will need a computer on which to run the server, a Raspberry Pi or PSoC Board, a coffee machine, and the miscellaneous things which are necessary for the coffee machine, including cups, coffee grounds, water, etc. We expect that, as practical problems arise, more parts will be necessary. However, items on the above list are either already owned by the students working on this project, the lab, or can be purchased at a reasonable price. 
+
+Software
+
+	The software elements needed are the code to program the PSoC (or Raspberry Pi), code for network programming and interfacing to the PSoC, and possibly GUI code. The PSoC code will be low-level, and will probably utilize some of the functions learned in lab, such as transmitting and detecting signals, and using interrupts. The networking code could be written in various languages, depending on what works best, and will probably not be very complicated. A simple client and server setup will be used, and communication will be done with basic message sending and receiving. Interfacing code may also be written, for example, to make a GUI for the client and to communicate between the server and the PSoC.
+
+Hardware
+
+	The PSoC or Raspberry Pi will be used as the control for the actual coffee-making portion. A ‘server’ computer will be used in between the client and the PSoC, and will probably be a personal computer of one of the group members. There will also be a motor of some sort connected to the PSoC, along with any other hardware needed (such as a simple circuit for additional motor control). To power the mechanical elements, a raw source of power (such as a wall plug or a battery) will be used with some sort of moderating hardware in between, depending on the needs of the mechanical parts. The actual brewing of the coffee will be done by a cheap coffee-maker that can be plugged into the wall.
+
+
+
+
+
+
+
+Mechanical
+	
+	As mentioned above, a commercial coffee machine will be used for the actual brewing. However, mechanical elements will be needed to pour the correct amount of water, deal with coffee grounds, and possibly move cups and other items into place. The machine will presumably need to be turned on and off, and extra features (such as adding sugar and cream) may be added if there is time. Because this project involves handling liquids and electronics in the same place, mechanical safety barriers will be implemented to prevent damage to the circuitry and the humans involved. Extra features such as portability will require more mechanical modifications.
+
+
+Bill of Material
+	
+	Laptop (server, from group member).........................................................................0$
+	Coffee machine (from thrift store).........................................................................5-10$
+	PSoC/Raspberry Pi................................................................................0-100$/25-35$
+	misc. coffee supplies............................................................................................0-15$
+	misc. hardware.....................................................................................................0-15$
+	motor....................................................................................................................0-40$
+	misc. mechanical..................................................................................................0-30$
+	total....................................................................................................................5-210$
+	approx. total budget...............................................................................................400$
+	current approx. savings.............................................................................around 190$
+
+
+Project Schedule
+
+3/11/13	Submit proposal
+3/21/13	Start writing network code and PSoC code. Basic format of mechanics
+outlined.
+3/28/13	All code executable, begin work on mechanics and electrical hardware
+4/1/13		Project milestone 1
+4/4/13		Main draft of mechanics completed, power source issues addressed
+4/11/13	First cohesive draft of all parts compiled (i.e. project should be at least partly
+working at this point), start intensive testing
+4/18/13	Final testing, project, and report documents/videos/presentation materials
+completed
+4/22/13	Project due
+
+
+
+
+
+Team Organization
+
+All -- Software, hardware, mechanics
+Joshua Howell -- Research, high-level software
+Tom White -- Reference, detail work/clean-up
+Margaret Ligon -- Communication, general development
+Travis James -- Quality control, general development
+
+Meeting times
+	Regular	4:10-5:25pm MW (as needed)
+			9:35-11:00am R
+	Optional	Saturday	      (all as needed)
+			7:00-11:00am R
+			1:30-4:10pm MW
